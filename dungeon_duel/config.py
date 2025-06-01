@@ -1,0 +1,39 @@
+# Configuration and constants for Dungeon Duel: Rogue AI
+
+# Grid settings
+GRID_WIDTH = 18
+GRID_HEIGHT = 14
+TILE_SIZE = 48
+
+# Tile types
+TILE_EMPTY = 0
+TILE_WALL = 1
+TILE_TREASURE = 2
+TILE_POTION = 3
+TILE_PLAYER = 4
+TILE_MONSTER = 5
+
+# Colors (R, G, B)
+COLOR_BG = (30, 30, 30)
+COLOR_WALL = (80, 80, 80)
+COLOR_TREASURE = (255, 215, 0)
+COLOR_POTION = (0, 191, 255)
+COLOR_PLAYER = (50, 205, 50)
+COLOR_MONSTER = (220, 20, 60)
+COLOR_TEXT = (255, 255, 255)
+
+# Game settings
+NUM_TREASURES = 24
+NUM_POTIONS = 7
+NUM_WALLS = 70
+PLAYER_START_HP = 20
+MONSTER_START_HP = 20
+MAX_TURNS = 60
+
+# Scoring
+TREASURE_SCORE = 10
+POTION_HEAL = 8
+HIT_DAMAGE = 5
+
+# Number of monsters
+NUM_MONSTERS = 1
